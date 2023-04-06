@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "CircularBold";
+    src: url("https://mattroush.github.io/HoagSFCustom/fonts/CircularXX-Bold.otf")
+}
+
+@font-face {
+    font-family: "CircularMedium";
+    src: url("https://mattroush.github.io/HoagSFCustom/fonts/CircularXX-Medium.otf")
+}
+
+@font-face {
+    font-family: "CircularBook";
+    src: url("https://mattroush.github.io/HoagSFCustom/fonts/CircularXX-Book.otf")
+}
+
+.tickets-content {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 300px;
+}
+
+.donation-card .bt-card:nth-child(5) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-top: -300px;
+}
+
+.divider-line {
+  display: none;
+}
